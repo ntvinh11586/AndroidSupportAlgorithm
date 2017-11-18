@@ -1,4 +1,4 @@
-package com.ntvinh11586.android_support_algorithm;
+package com.ntvinh11586.algorithm;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ntvinh11586.android_support_algorithm.test", appContext.getPackageName());
+        assertEquals("com.ntvinh11586.algorithm.test", appContext.getPackageName());
     }
 }

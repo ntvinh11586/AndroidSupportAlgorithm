@@ -1,4 +1,4 @@
-package com.ntvinh11586.android_support_algorithm;
+package com.ntvinh11586.algorithm;
 
 public class BasicIntegerCalculation {
 

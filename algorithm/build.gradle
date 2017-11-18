@@ -2,18 +2,18 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'android-support-algorithm'
-    bintrayName = 'android-support-algorithm'
+    bintrayName = 'algorithm'
 
     publishedGroupId = 'com.ntvinh11586.android-support-algorithm'
-    libraryName = 'AndroidSupportAlgorithm'
+    libraryName = 'Android Support Algorithm'
     artifact = 'algorithm'
 
-    libraryDescription = 'Algorithm library'
+    libraryDescription = 'Android Support Algorithm: Algorithm package'
 
     siteUrl = 'https://github.com/ntvinh11586/AndroidSupportAlgorithm'
     gitUrl = 'https://github.com/ntvinh11586/AndroidSupportAlgorithm.git'
 
-    libraryVersion = '0.0.2'
+    libraryVersion = '0.0.1'
 
     developerId = 'ntvinh11586'
     developerName = 'Vinh Nguyen'
@@ -26,6 +26,8 @@ ext {
 
 android {
     compileSdkVersion 26
+
+
 
     defaultConfig {
         minSdkVersion 16
