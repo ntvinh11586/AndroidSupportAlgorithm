@@ -2,18 +2,18 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'android-support-algorithm'
-    bintrayName = 'algorithm'
+    bintrayName = 'algorithms'
 
     publishedGroupId = 'com.ntvinh11586.android-support-algorithm'
     libraryName = 'Android Support Algorithm'
-    artifact = 'algorithm'
+    artifact = 'algorithms'
 
     libraryDescription = 'Android Support Algorithm: Algorithm package'
 
     siteUrl = 'https://github.com/ntvinh11586/AndroidSupportAlgorithm'
     gitUrl = 'https://github.com/ntvinh11586/AndroidSupportAlgorithm.git'
 
-    libraryVersion = '0.0.4'
+    libraryVersion = '0.0.6'
 
     developerId = 'ntvinh11586'
     developerName = 'Vinh Nguyen'

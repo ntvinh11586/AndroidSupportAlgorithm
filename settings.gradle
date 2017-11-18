@@ -1,1 +1,1 @@
-include ':app', ':android-support-algorithm', ':algorithm'
+include ':app', ':algorithms'
