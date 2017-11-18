@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'maven'
+    bintrayRepo = 'android-support-algorithm'
     bintrayName = 'android-support-algorithm'
 
     publishedGroupId = 'com.ntvinh11586.android-support-algorithm'
