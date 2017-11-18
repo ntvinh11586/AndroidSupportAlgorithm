@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/ntvinh11586/AndroidSupportAlgorithm'
     gitUrl = 'https://github.com/ntvinh11586/AndroidSupportAlgorithm.git'
 
-    libraryVersion = '0.0.7'
+    libraryVersion = '0.0.10'
 
     developerId = 'ntvinh11586'
     developerName = 'Vinh Nguyen'
