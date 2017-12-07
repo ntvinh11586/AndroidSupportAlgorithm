@@ -7,6 +7,18 @@ import org.junit.Test;
 public class BinaryIntegerTest {
 
     @Test
+    public void shouldCreateCorrectBinaryInteger() {
+        BinaryInteger binary = new BinaryInteger(10);
+        Assert.assertEquals(10, binary.getInt());
+    }
+
+    @Test
+    public void shouldCreateCorrectZeroBinaryInteger() {
+        BinaryInteger binary = new BinaryInteger();
+        Assert.assertEquals(0, binary.getInt());
+    }
+
+    @Test
     public void shouldPrintCorrectPositiveIntegerString() {
         BinaryInteger binary = new BinaryInteger(10);
         String binaryStr = binary.toString();

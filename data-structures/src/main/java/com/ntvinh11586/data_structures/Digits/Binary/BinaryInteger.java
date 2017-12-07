@@ -1,7 +1,11 @@
 package com.ntvinh11586.data_structures.Digits.Binary;
 
 public class BinaryInteger implements BinaryAssignment {
-    int bits;
+    private int bits;
+
+    public BinaryInteger() {
+        this.bits = 0;
+    }
 
     public BinaryInteger(int bits) {
         this.bits = bits;
