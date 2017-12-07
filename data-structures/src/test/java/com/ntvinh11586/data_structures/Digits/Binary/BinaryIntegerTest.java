@@ -73,4 +73,48 @@ public class BinaryIntegerTest {
         BinaryInteger binary =  new BinaryInteger(234234);
         boolean bit = binary.getBitAt(32);
     }
+
+    @Test
+    public void shouldPerformCorrectAdd() {
+        BinaryInteger binaryA = new BinaryInteger(14443);
+        BinaryInteger binaryB = new BinaryInteger(86);
+        BinaryInteger binaryExpected = new BinaryInteger(14529);
+
+        BinaryInteger binaryActual = binaryA.add(binaryB);
+
+        Assert.assertEquals(binaryExpected, binaryActual);
+    }
+
+    @Test
+    public void shouldPerformCorrectSubtract() {
+        BinaryInteger binaryA = new BinaryInteger(32433);
+        BinaryInteger binaryB = new BinaryInteger(20);
+        BinaryInteger binaryExpected = new BinaryInteger(32413);
+
+        BinaryInteger binaryActual = binaryA.subtract(binaryB);
+
+        Assert.assertEquals(binaryExpected, binaryActual);
+    }
+
+    @Test
+    public void shouldPerformCorrectMultiple() {
+        BinaryInteger binaryA = new BinaryInteger(33233);
+        BinaryInteger binaryB = new BinaryInteger(22131);
+        BinaryInteger binaryExpected = new BinaryInteger(735479523);
+
+        BinaryInteger binaryActual = binaryA.multiply(binaryB);
+
+        Assert.assertEquals(binaryExpected, binaryActual);
+    }
+
+    @Test
+    public void shouldPerformCorrectDivide() {
+        BinaryInteger binaryA = new BinaryInteger(32433);
+        BinaryInteger binaryB = new BinaryInteger(20);
+        BinaryInteger binaryExpected = new BinaryInteger(1621);
+
+        BinaryInteger binaryActual = binaryA.divide(binaryB);
+
+        Assert.assertEquals(binaryExpected, binaryActual);
+    }
 }

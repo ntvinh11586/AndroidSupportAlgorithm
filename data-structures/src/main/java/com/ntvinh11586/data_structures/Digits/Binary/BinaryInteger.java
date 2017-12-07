@@ -30,4 +30,37 @@ public class BinaryInteger implements BinaryAssignment {
 
         return new String(binaryStrBuffer);
     }
+
+    public int getInt() {
+        return bits;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof BinaryInteger) {
+            return getInt() == ((BinaryInteger) obj).getInt();
+        }
+
+        return super.equals(obj);
+    }
+
+    @Override
+    public BinaryInteger add(BinaryInteger bits) {
+        return new BinaryInteger(this.bits + bits.getInt());
+    }
+
+    @Override
+    public BinaryInteger subtract(BinaryInteger bits) {
+        return new BinaryInteger(this.bits - bits.getInt());
+    }
+
+    @Override
+    public BinaryInteger multiply(BinaryInteger bits) {
+        return new BinaryInteger(this.bits * bits.getInt());
+    }
+
+    @Override
+    public BinaryInteger divide(BinaryInteger bits) {
+        return new BinaryInteger(this.bits / bits.getInt());
+    }
 }
